@@ -41,6 +41,7 @@
     average speed; The rate of change in distance calculated over a complete journey
     average velocity; The change in displacement Δs for a journey divided by the time taken Δt Δs/Δt
     Avogadro's constant; 6.02×10²³, the number of atoms in 0.012 kg (12 g) of carbon-12; symbol N_A
+    A-scan; A one-dimensional ultrasound scan used to determine the distance or depth of an internal structure
     background radiation; The radiation emitted by the surroundings, which must be measured before radiation produced in an experiment can usefully be measured
     baryon; Any hadron made with a combination of three quarks
     base unit; One of seven units that form the building blocks of the SI measurement system
@@ -60,6 +61,7 @@
     breaking strength; The stress value at the point of fracture, calculated by dividing the breaking force by the cross-sectional area
     brittle; Property of a material that does not show plastic deformation and deforms very little (if at all) under high stress
     Brownian motion; The continuous random motion of small particles suspended in a fluid, visible under a microscope
+    B-scan; An ultrasound scan used to build up a two or three-dimensional image of an internal structure using a number of sensors or one sensor in different positions
     capacitance; The charge stored per unit potential difference across a capacitor
     capacitor; A component that stores charge, consisting of two plates separated by an insulator (dielectric)
     carbon dating; A method for determining the age of organic material, by comparing the activities, or the ratios, of carbon-14 to carbon-12 nuclei of the dead material of interest and similar living material
