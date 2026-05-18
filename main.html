@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-level Definitions</title>
+    <link rel="icon" href="Icon.png" type="image/png">
+    <link rel="preload" href="jeebraital.ttf" as="font" type="font/ttf">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<div class="loading-container">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="loading-bar">
+        <div class="loading-colour"></div>
+    </div>
+    <div class="loading-corner">
+        <div class="loading-num">Loading</div>
+    </div>
+</div>
+
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" style="display: none;" />
+
+<div class="side-nav left-nav">
+    <div class="subject-bar">
+        <button class="subject-btn active" id="btnPhysics">🔭 Physics</button>
+        <button class="subject-btn" id="btnChemistry">🧪 Chemistry</button>
+    </div>
+</div>
+
+<div class="app-container">
+    <h1>A-LEVEL DEFINITIONS<span>OCR A</span></h1>
+
+    <div class="deck-header">
+        <div class="header-left">
+            <span id="subjectTitle">Physics</span>
+            <span class="counter" id="cardCounter">0 / 0</span>
+        </div>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search terms..." aria-label="Search flashcards">
+            <button id="clearSearchBtn" title="Clear search (Esc)">✕</button>
+        </div>
+    </div>
+
+    <div id="flashcard" class="flashcard">
+        <div class="term" id="termDisplay">Loading...</div>
+        <div id="definitionDisplay" class="definition hidden-def"></div>
+    </div>
+
+    <div class="nav-controls">
+        <button class="nav-btn" id="prevBtn" title="Previous (←)">←</button>
+        <button class="nav-btn" id="nextBtn" title="Next (→)">→</button>
+    </div>
+
+    <div class="footer-note">
+        • Click card to flip • ←/→ keys • Cmd/Ctrl+F to search • Esc to clear search •
+    </div>
+</div>
+
+<div class="side-nav right-nav">
+    <div class="action-row">
+        <button class="secondary-btn star-btn" id="starBtn" title="Star this card">☆ Star</button>
+        <button class="secondary-btn" id="toggleStarFilterBtn" title="Show starred only">★ Show Starred</button>
+        <button class="secondary-btn" id="shuffleBtn">🔄 Shuffle</button>
+        <button class="secondary-btn" id="resetProgressBtn">🔁 Restart Deck</button>
+    </div>
+</div>
+
+
+<script src="https://www.unpkg.com/siteloader@0.0.90/dist/sl.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.157.0/build/three.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
