@@ -336,7 +336,6 @@
     spectroscopy; A technique in physics in which spectral lines are identified and measured in order to identify elements present within stars
     standard form; Mathematical notation in which a number is shown with the decimal point placed after the first digit, followed by ×10 raised to an appropriate power
     standard model; The current theory of particle physics that deals with elementary particles (quarks, electrons, etc.) and their interactions
-    standing wave; A wave that remains in a constant position with no net transfer of energy and is characterised by its nodes and antinodes - also called a stationary wave
     stationary wave; A wave that remains in a constant position with no net transfer of energy and is characterised by its nodes and antinodes - also called a standing wave
     Stefan constant; The constant σ in Stefan's law, L = 4πr²σT⁴, relating the luminosity L of a star to its surface area 4πr² and its absolute surface temperature T: σ = 5.67×10⁻⁸ W m⁻² K⁻⁴
     stellar parallax; A technique used to determine the distance to stars that are relatively close to the Earth (less than 100 pc) by comparing their apparent positions against distant stars at times 6 months apart
