@@ -50,6 +50,12 @@ body {
     z-index: 5; /* stacking context above background but below side-navs */
 }
 
+.logo {
+    width: 2.2rem;
+    height: 2.2rem;
+    transform: translateY(-1px);
+}
+
 h1 {
     font-weight: 300;
     font-size: 2.2rem;
@@ -57,11 +63,12 @@ h1 {
     margin-bottom: 0.5rem;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 6px;
     letter-spacing: 0.5px;
 }
 
 h1 span {
+    margin-left: 4px;
     font-weight: 400;
     padding: 0.15rem 1rem;
     border-radius: 40px;
