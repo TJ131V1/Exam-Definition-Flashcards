@@ -761,7 +761,6 @@
         } else if (currentIndex >= filteredDeck.length) {
             currentIndex = filteredDeck.length - 1;
         }
-        definitionVisible = false;
         updateDisplay();
     }
 
@@ -821,6 +820,7 @@
 
     function toggleStarForCurrent() {
         if (!filteredDeck.length) return;
+        const preserved = definitionVisible;
         const card = filteredDeck[currentIndex];
         const key = normalizeTerm(card.term);
         const set = currentSubject === 'physics' ? starMap.physics : starMap.chemistry;
@@ -831,6 +831,15 @@
         }
         saveStarMap();
         applyFilter();
+        // Try to keep the same card selected after re-filtering
+        const newIndex = filteredDeck.findIndex(c => normalizeTerm(c.term) === key);
+        if (newIndex !== -1) {
+            currentIndex = newIndex;
+        } else {
+            if (filteredDeck.length === 0) currentIndex = 0;
+            else currentIndex = Math.min(currentIndex, filteredDeck.length - 1);
+        }
+        definitionVisible = preserved;
         updateDisplay();
     }
 
@@ -969,6 +978,9 @@
                 } else if (e.key === ' ' || e.key === 'Space') {
                     e.preventDefault();
                     toggleDefinition();
+                } else if (!e.metaKey && !e.ctrlKey && !e.altKey && e.key.toLowerCase() === 's') {
+                    e.preventDefault();
+                    toggleStarForCurrent();
                 }
             } else {
                 if (e.key === ' ' || e.key === 'Space') {
