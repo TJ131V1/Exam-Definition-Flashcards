@@ -326,7 +326,7 @@
     series; An arrangement of electrical components connected end-to-end that means that the current is the same in each component
     series circuit; A type of electrical circuit where the components are connected end-to-end
     sharpness; How well defined the edges of structures are
-    simple harmonic motion; Oscillating motion for which the acceleration of the object is directly proportional to its displacement and is directed towards some fixed point - characterised by the equation a = -ω²x
+    simple harmonic motion; Oscillating motion for which the acceleration of the object is directly proportional to its displacement and is always directed towards its equilibrium position - characterised by the equation a = -ω²x
     solar system; A planetary system consisting of a star and at least one planet in orbit around it - our own Solar System contains the Sun and all the objects that orbit it
     specific heat capacity; The energy required per unit mass to change the temperature by 1 K (or 1°C); unit J kg⁻¹ K⁻¹
     specific latent heat; The energy required to change the phase per unit mass while at constant temperature - symbol L
