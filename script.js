@@ -6,7 +6,6 @@
     const physicsRaw = `
     absolute scale of temperature; A scale for measuring temperature based on absolute zero and the triple point of pure water, with gradations equal in size to those of the Celsius scale; unit kelvin (K)
     absolute zero; The lowest possible temperature, the temperature at which substances have minimum internal energy
-    absorption coefficient; A measure of the absorption of X-ray photons by a substance, also known as attenuation coefficient - SI unit m⁻¹
     absorption line spectrum; A set of specific frequencies of electromagnetic radiation, visible as dark lines in an otherwise continuous spectrum on spectroscopy. They are absorbed by atoms as their electrons are excited between energy states by absorbing the corresponding amount of energy in the form of photons - every element has a characteristic line spectrum
     acceleration; The rate of change of velocity, a vector quantity
     acceleration of free fall; The rate of change of velocity of an object falling in a gravitational field, symbol g
@@ -188,7 +187,9 @@
     gradient; In a graph, the change in the vertical axis quantity divided by the corresponding change in the horizontal axis quantity
     grating equation; An equation that can be used to determine accurately the wavelength of monochromatic light sent through a diffraction grating, d sinθ = nλ
     gravitational potential; The work done per unit of mass in bringing a mass from infinity to a defined point
+    homogeneous; The idea that the universe has a uniform density because matter is uniformly distributed
     ideal gas; A gas which obeys the equation of state pV = nRT at all pressures, volumes and temperatures
+    isotropic; The idea that the universe is the same in all directions to every observer
     Lenz's law; The induced e.m.f. is set up in a direction to produce effects that oppose the change causing it
     magnetic flux Φ; The product of the magnetic flux density B and the cross-sectional area A perpendicular to the direction of the magnetic flux density
     magnetic flux density B; The force F acting per unit current I per unit length l on a current-carrying conductor placed perpendicular to the magnetic field
