@@ -196,7 +196,7 @@
     magnetic flux linkage; The product of the magnetic flux Φ and the number of turns of the coil N
     mass defect; The difference between the measured mass of a nucleus and the sum total of the masses of its constituents
     mean square speed; The mean of the squared velocities (of all the particles in a gas)
-    medical tracer; A radiopharmaceutical, that is, a compound labelled with a radioisotope that can be traced inside the body using a gamma camera
+    medical tracer; A compound labelled with a radioisotope whose position inside the body can be detected using a gamma camera
     meson; Any hadron comprising a combination of a quark and an anti-quark
     microwave background radiation; The microwave signal of uniform intensity detected from all directions of the sky, which fits the profile for a black body at a temperature of 2.7 K
     microwaves; Long-wavelength electromagnetic waves, with wavelengths from 10⁻¹ m to 10⁻³ m
